@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:rom-cjxd6/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: rverduci@cloudbees.com
+  token: vault:rom-cjxd6/pipelineUser:token
+  username: core-platform-test-bot
+prow:
+  hmacToken: vault:rom-cjxd6/prow:hmacToken

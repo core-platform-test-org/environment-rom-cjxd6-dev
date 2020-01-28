@@ -1,24 +1,6 @@
 approvers:
-- rawlingsj
-- jstrachan
-- ccojocar
-- garethjevans
-- pmuir
-- wbrefvem
-- warrenbailey
-- cagiti
-- abayer
-- dgozalo
-- daveconde
+- core-platform-test-bot
+- romainverduci
 reviewers:
-- rawlingsj
-- jstrachan
-- ccojocar
-- garethjevans
-- pmuir
-- wbrefvem
-- warrenbailey
-- cagiti
-- abayer
-- dgozalo
-- daveconde
+- core-platform-test-bot
+- romainverduci
