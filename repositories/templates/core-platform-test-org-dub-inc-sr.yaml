@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: core-platform-test-org
+    provider: github
+    repository: dub-inc
+  name: core-platform-test-org-dub-inc
+spec:
+  description: Imported application for core-platform-test-org/dub-inc
+  httpCloneURL: https://github.com/core-platform-test-org/dub-inc.git
+  org: core-platform-test-org
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: dub-inc
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/core-platform-test-org/dub-inc.git

@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: core-platform-test-org
+  repo: dub-inc
+  url: https://github.com/core-platform-test-org/dub-inc.git
+  version: ""
+  versionURL: ""
