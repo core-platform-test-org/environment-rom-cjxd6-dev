@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: romainverduci
+    provider: github
+    repository: test-node
+  name: romainverduci-test-node
+spec:
+  description: Imported application for romainverduci/test-node
+  httpCloneURL: https://github.com/romainverduci/test-node.git
+  org: romainverduci
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: test-node
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/romainverduci/test-node.git
