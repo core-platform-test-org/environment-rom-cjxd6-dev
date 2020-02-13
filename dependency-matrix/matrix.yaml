@@ -5,3 +5,9 @@ dependencies:
   url: https://github.com/core-platform-test-org/dub-inc.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: romainverduci
+  repo: test-quickstart
+  url: https://github.com/romainverduci/test-quickstart.git
+  version: ""
+  versionURL: ""
