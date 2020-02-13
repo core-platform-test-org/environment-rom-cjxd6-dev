@@ -11,3 +11,9 @@ dependencies:
   url: https://github.com/romainverduci/test-quickstart.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: romainverduci
+  repo: test-node
+  url: https://github.com/romainverduci/test-node.git
+  version: ""
+  versionURL: ""
