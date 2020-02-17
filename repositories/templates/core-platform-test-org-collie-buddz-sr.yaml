@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: core-platform-test-org
+    provider: github
+    repository: collie-buddz
+  name: core-platform-test-org-collie-buddz
+spec:
+  description: Imported application for core-platform-test-org/collie-buddz
+  httpCloneURL: https://github.com/core-platform-test-org/collie-buddz.git
+  org: core-platform-test-org
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: collie-buddz
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/core-platform-test-org/collie-buddz.git
