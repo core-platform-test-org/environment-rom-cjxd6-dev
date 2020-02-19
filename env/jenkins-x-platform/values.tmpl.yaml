@@ -169,17 +169,68 @@ PipelineSecrets:
             IdentityFile /root/.ssh-git/ssh-key
             StrictHostKeyChecking no
 
-{{- if eq .Requirements.webhook "lighthouse" }}
 controllerbuild:
+{{- if eq .Requirements.webhook "lighthouse" }}
   enabled: true
   args:
-  - "controller"
-  - "build"
-  - "--git-reporting"
-  - "--batch-mode"
-  - "--git-credentials"
-  - "--verbose"
+    - "controller"
+    - "build"
+    - "--git-reporting"
+    - "--batch-mode"
+    - "--git-credentials"
+    - "--verbose"
 {{- end }}
+  role:
+    enabled: true
+    rules:
+      - apiGroups:
+          - jenkins.io
+        resources:
+          - pipelineactivities
+          - pipelinestructures
+          - sourcerepositories
+        verbs:
+          - list
+          - get
+          - watch
+          - create
+          - update
+          - patch
+      - apiGroups:
+          - jenkins.io
+        resources:
+          - environments
+          - plugins
+        verbs:
+          - get
+          - list
+          - watch
+      - apiGroups:
+          - ""
+        resources:
+          - pods
+          - pods/log
+          - secrets
+          - configmaps
+          - serviceaccounts
+        verbs:
+          - get
+          - list
+          - watch
+      - apiGroups:
+          - extensions
+        resources:
+          - ingresses
+        verbs:
+          - list
+          - get
+      - apiGroups:
+          - vault.banzaicloud.com
+        resources:
+          - vaults
+        verbs:
+          - list
+          - get
 
 gcactivities:
   args:
