@@ -23,3 +23,9 @@ dependencies:
   url: https://github.com/core-platform-test-org/collie-buddz.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: core-platform-test-org
+  repo: bdd-nh-1582105138
+  url: https://github.com/core-platform-test-org/bdd-nh-1582105138.git
+  version: ""
+  versionURL: ""

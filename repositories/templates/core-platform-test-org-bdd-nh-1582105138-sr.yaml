@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: core-platform-test-org
+    provider: github
+    repository: bdd-nh-1582105138
+  name: core-platform-test-org-bdd-nh-1582105138
+spec:
+  description: Imported application for core-platform-test-org/bdd-nh-1582105138
+  httpCloneURL: https://github.com/core-platform-test-org/bdd-nh-1582105138.git
+  org: core-platform-test-org
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: bdd-nh-1582105138
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/core-platform-test-org/bdd-nh-1582105138.git
