@@ -7,3 +7,4 @@ Dependency | Sources | Version | Mismatched versions
 [romainverduci/test-node](https://github.com/romainverduci/test-node.git) |  | []() | 
 [core-platform-test-org/collie-buddz](https://github.com/core-platform-test-org/collie-buddz.git) |  | []() | 
 [core-platform-test-org/bdd-nh-1582105138](https://github.com/core-platform-test-org/bdd-nh-1582105138.git) |  | []() | 
+[core-platform-test-org/node-http-qs-test](https://github.com/core-platform-test-org/node-http-qs-test.git) |  | []() | 
