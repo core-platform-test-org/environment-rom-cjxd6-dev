@@ -35,3 +35,9 @@ dependencies:
   url: https://github.com/core-platform-test-org/node-http-qs-test.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: romainverduci
+  repo: node-http-qs-test
+  url: https://github.com/romainverduci/node-http-qs-test.git
+  version: ""
+  versionURL: ""
